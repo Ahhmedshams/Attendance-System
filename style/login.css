@@ -1,0 +1,31 @@
+.container-fluid{
+    height: 100vh;
+}
+#mainWrapper{
+    background: linear-gradient(hsla(350, 3%, 58%, 0.329),rgba(75, 75, 82, 0.137)),url(../img/home.jpg) ;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#login{
+    background-color: #901b20;
+    border: 2px solid #901b20;
+    color:white;
+    transition: .9s;
+}
+#login:hover{
+    background-color: white;
+    color:#901b20;
+}
+.nav-link:hover{
+    color:#901b20 !important;
+}
+#register{
+    transition: .9s;
+}
+#register:hover{
+    
+    background-color:#901b20 !important;
+}

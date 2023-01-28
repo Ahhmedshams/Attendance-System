@@ -1,0 +1,64 @@
+/* *{
+    transition: .9s !important;
+} */
+.send{
+    color: green;
+    width: 6px !important;
+    height: 8px !important;
+    
+}
+.delete{
+    color: #901b20;
+    width: 6px !important;
+    height: 8px !important;
+}
+.delete:hover{
+    color: black;
+}
+.send:hover{
+    color: black;
+}
+table{
+    text-align: center;
+}
+th{
+    text-transform: capitalize;
+    text-align: center !important;
+}
+#mainWrapper{
+    background: linear-gradient(hsla(350, 3%, 58%, 0.329),rgba(75, 75, 82, 0.137)),url(../img/home.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  
+}
+#search{
+    background-color: #901b20;
+    border: 2px solid #901b20;
+    color:white;
+    transition: .8s;
+}
+#search:hover{
+    background-color: white;
+    color:#901b20;
+}
+.nav-tabs .nav-link.active {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color:#901b20 ;
+    color: white;
+    transition: .9s !important;
+}
+
+.nav-item button{
+    border-color: gray;
+    color: #901b20;
+    transition: .9s;
+}
+.nav-item button:hover{
+    color: white;
+   background-color:  #901b20;
+}
+ #allEmpTable {
+    table-layout: fixed !important;
+}

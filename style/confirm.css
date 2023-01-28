@@ -1,0 +1,13 @@
+body {
+  background-image:linear-gradient(hsla(349, 23%, 86%, 0.329),rgba(0, 0, 255, 0.137)), url(../img/home.jpg);
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height:100vh;
+}
+.gray{
+  background-color:#4b4d4f !important;
+}
+.card{
+  border-color: gray;
+}

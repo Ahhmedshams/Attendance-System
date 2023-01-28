@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+ }
+ body {  
+   line-height: 2;
+ }
+ 
+ nav a {
+    font-weight: bold;
+    transition: .6s ;
+    text-decoration: none;
+    color: #901b20;
+ }
+ 
+ .logo-text {
+    font-size: 1.2rem;
+    color:  #901b20;
+ }
+ .navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ .navbar{
+    border: 0px;
+ }
+ .navbar-light .navbar-nav .nav-link.active {
+    color: #901b20;
+ }
+ 
+ #mainWrapper {
+    background: linear-gradient(hsla(350, 3%, 58%, 0.329),rgba(75, 75, 82, 0.137)),url(../img/home.jpg) ;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+ }
+ .btn-danger{
+    margin-left: 1rem;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    background-image: linear-gradient(to left ,#e39da4(255, 255, 255),#dc3545(226, 169, 13)); 
+ }
+ 
+ 
+ .btn-danger:hover{
+  background-image: linear-gradient(to right ,#e97884(255, 255, 255),#dc3545(226, 169, 13)); 
+ }
+ #actions a{
+   width: 8rem;
+   padding: .5rem;
+   background-color: #901b20;
+   border-color: #901b20 ;
+   transition: 1.2s;
+ }
+ #actions a:hover{
+   width: 8rem;
+   padding: .5rem;
+   color: #901b20;
+   background-color: white;
+   border-color: #901b20 ;
+ }

@@ -1,0 +1,44 @@
+
+#mainWrapper{
+    background: linear-gradient(hsla(350, 3%, 58%, 0.329),rgba(75, 75, 82, 0.137)),url(../img/home.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 92.9vh;
+    display: flex;
+}
+#secondWrapper{
+    background-color: #e5d6d7bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px; 
+}
+#submitButton,
+#startBtn{
+    background-color: #901b20;
+    border: 2px solid #901b20;
+    color:white;
+    transition: .9s;
+}
+#startBtn:hover,#submitButton:hover{
+    background-color: white;
+    color:#901b20;
+}
+.nav-link:hover{
+    color:#901b20 !important;
+}
+.invalid-feedback{
+    color:#901b20 !important;
+    font-size: 1rem;
+
+}
+.nav-item button{
+    border-color: white;
+    color: #901b20;
+    transition: .9s;
+}
+.nav-item button:hover{
+    color: white;
+   background-color:  #901b20;
+}

@@ -1,0 +1,47 @@
+#absent{
+    margin-top: 1rem;
+    text-align: center;
+    background-color:#901b20 ;
+    color: white;
+    min-height: 2rem;
+    border-radius: 40px;
+}
+table{
+    text-align: center;
+    margin-top: 1rem;
+}
+#name{
+    min-height: 1rem;
+    width: 100%;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  sans-serif;
+    text-transform: capitalize;
+}
+#search{
+    background-color: #901b20;
+    border: 2px solid #901b20;
+    color:white;
+    transition: .8s;
+}
+#search:hover{
+    background-color: white;
+    color:#901b20;
+}
+.nav-tabs .nav-link.active {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color:#901b20 ;
+    color: white;
+}
+.nav-item button{
+    border-color: gray;
+    color: #901b20;
+    transition: .9s;
+}
+.nav-item button:hover{
+    color: white;
+   background-color:  #901b20;
+}
